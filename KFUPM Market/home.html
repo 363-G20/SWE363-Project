@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>State 1</title>
+</head>
+<body>
+    <h1>KFUPM Market Forms</h1>
+    <form id="marketForm" enctype="multipart/form-data" action="/submitForm" method="post">
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="100" required></textarea>
+        <br><br>
+
+        <!-- Photo Upload -->
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+        <canvas id="signature-canvas" width="300" height="150"></canvas>
+        <button id="clear-button">Clear Signature</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
