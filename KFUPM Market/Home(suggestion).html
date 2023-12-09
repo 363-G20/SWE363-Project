@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>KFUPM Account</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://threejs.org/build/three.js"></script>
+
+</head>
+<body>
+    
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+           <a href="Marketplace.html"> <img src="/KFUPM Market/Assests/KFUPM.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="Marketplace.html">Home</a></li>
+                <li><a href="">Listings</a></li>
+            </ul>
+        </nav>
+        <img src="/KFUPM Market/Assests/cart.png" width="30px" height="30px">
+        <img src="/KFUPM Market/Assests/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+    <h1>KFUPM Market Forms</h1>
+    <form id="marketForm" enctype="multipart/form-data" action="Marketplace.html" method="post">
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="100" required></textarea>
+        <br><br>
+
+        <!-- Photo Upload -->
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+        <canvas id="signature-canvas" width="300" height="150"></canvas>
+        <button id="clear-button">Clear Signature</button>
+    </form>
+    <script src="scripts.js"></script>
+
+
+
+
+<!--- Footer---->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Downlaod Our App</h3>
+                <p> Dont Miss out on the Mobile App Special Offers !</p>
+            </div>
+            <div class="footer-col-2">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits Accessible to many Students.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                    <li>Tiktok</li>
+
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2021 KFUPM Store | All Rights Reserved | Terms and Conditions</p>
+    </div>
+</div>
+
+
+<!---- JS Toggle Menu---->
+
+<script>
+    setTimeout(function() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+    }, 10);
+
+    
+
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+                
+
+
+
+</body>
+</html>

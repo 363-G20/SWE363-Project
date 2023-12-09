@@ -1,0 +1,10 @@
+[
+    { "name": "Xbox one with Controller", "phoneNumber": "0559390557", "price": "SAR1800.00", "image": "/KFUPM Market/Items/Xbox.png" },
+    { "name": "Kingston SSD Nvme 1TB", "phoneNumber": "0559390557", "price": "SAR240.00", "image": "/KFUPM Market/Items/Nvme1TB.png" },
+    { "name": "Benq XL2411", "phoneNumber": "0544087599", "price": "SAR200.00", "image": "/KFUPM Market/Items/BenQ.png" },
+    { "name": "Anker headphones", "phoneNumber": "0533920645", "price": "SAR200.00", "image": "/KFUPM Market/Items/headphones.png" },
+    { "name": "AK120 SE ARB CPU Cooler", "phoneNumber": "0559390557", "price": "SAR90.00", "image": "/KFUPM Market/Items/cpucooler.png" },
+    { "name": "Anker 737 Powerbank", "phoneNumber": "0552059876", "price": "SAR 570.00", "image": "/KFUPM Market/Items/ankerPowerbank.png" },
+    { "name": "Apple watch series 5", "phoneNumber": "0556268289", "price": "SAR500.00", "image": "/KFUPM Market/Items/applewatch.png" },
+    { "name": "Samsung earbuds Pro", "phoneNumber": "0536630195", "price": "SAR400.00", "image": "/KFUPM Market/Items/Sonyearbuds.png" }
+]
